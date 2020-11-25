@@ -13,8 +13,8 @@ tested with linux "mint and ubuntu"
 `sudo python3 dns.py`
 
 ### Screenshots
-![](https://raw.githubusercontent.com/mrmoein/GUI-DNS-changer-for-linux/main/Screenshot-1.png)
-![](https://raw.githubusercontent.com/mrmoein/GUI-DNS-changer-for-linux/main/Screenshot-2.png)
+![](https://uupload.ir/files/ats0_screenshot-1.png)
+![](https://uupload.ir/files/cnn4_screenshot-2.png)
 
 ### Note
 i use an `alias` commend as a shortcut, for example:
