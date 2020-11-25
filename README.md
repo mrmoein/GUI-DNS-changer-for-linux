@@ -10,6 +10,8 @@ tested with linux "mint and ubuntu"
 
 `pip3 install PyQt5`
 
+`sudo apt-get install python3-pyqt5`
+
 `sudo python3 dns.py`
 
 ### Screenshots
