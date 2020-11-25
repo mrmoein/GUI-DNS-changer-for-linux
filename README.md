@@ -1,5 +1,5 @@
 # GUI-DNS-changer-for-linux
-a simple GUI linux DNS changer
+a simple GUI linux DNS changer with PyQt5
 
 tested with linux "mint and ubuntu"
 
