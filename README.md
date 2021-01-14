@@ -7,8 +7,7 @@ tested with linux "mint and ubuntu"
 ```
 git clone https://github.com/mrmoein/GUI-DNS-changer-for-linux.git
 cd GUI-DNS-changer-for-linux/
-pip3 install PyQt5
-sudo apt-get install python3-pyqt5
+pip3 install pyqt5
 sudo python3 dns.py
 ```
 
