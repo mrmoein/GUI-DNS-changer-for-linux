@@ -189,7 +189,7 @@ class Ui_MainWindow(object):
             # add log
             self.logPrint("'" + self.name_input.text() + "' saved")
 
-    def validIPAddress(self, IP: str) -> str:
+    def validIPAddress(self, IP):
         try:
             return "IPv4" if type(ip_address(IP)) is IPv4Address else "IPv6"
         except ValueError:
