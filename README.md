@@ -21,9 +21,11 @@ add `DNS-Changer.desktop` to your `~/.local/share/applications` directory and pa
 ```
 [Desktop Entry]
 Name=DNS Changer
-Exec=pkexec python3 /home/moein/Programming/Python/GUI-DNS-changer-for-linux/dns.py
+Exec=pkexec python3 /path/to/directory/GUI-DNS-changer-for-linux/dns.py
 Comment=
 Terminal=false
-Icon=/home/moein/Programming/Python/GUI-DNS-changer-for-linux/dns-logo.png
+Icon= /path/to/directory/GUI-DNS-changer-for-linux/dns-logo.png
 Type=Application
 ```
+**note**: replace `/path/to/directory` with current application path
+
