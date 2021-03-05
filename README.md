@@ -4,7 +4,7 @@ change dns of your system easily and quickly
 tested on `ubuntu` and `mint`
 
 ### Screenshot
-![screenshot](icon/Screenshot from 2021-03-05 03-39-04.png)
+![screenshot](icon/Screenshot.png)
 
 ### Installation
 ```
