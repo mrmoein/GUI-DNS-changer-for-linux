@@ -33,5 +33,5 @@ def ping(server='example.com', count=1, wait_sec=1):
             'loss': loss,
         }
     except Exception as e:
-        print(e)
-        return None
+        # print(e)
+        return False

@@ -1,10 +1,9 @@
 from utils.initGui import GUI
-import os
-from utils.data import Data
+import sys, os
 
-cur_path = os.path.dirname(__file__)
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+cur_path = sys.path[0]
+# cur_path = ROOT_DIR
 gui = GUI(cur_path)
 gui.start()
-
-# data = Data('{}/utils/data.json'.format(cur_path))
-# print(data.data['dns_list'][0]['name'])
