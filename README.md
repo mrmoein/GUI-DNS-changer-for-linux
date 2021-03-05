@@ -3,8 +3,9 @@ change dns of your system easily and quickly
 
 tested on `ubuntu` and `mint`
 
-### Screenshot
-![screenshot](icon/Screenshot.png)
+### Screenshots
+![main window](icon/Screenshot.png)
+![fastest window](icon/Screenshot2.png)
 
 ### Installation
 ```
