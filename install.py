@@ -10,7 +10,7 @@ cur_path = sys.path[0]
 file.write('''[Desktop Entry]
 Name= DNS changer
 Comment= simple gui linux DNS changer with python3 and PyQt By Moein Aghamirzaei
-Exec= pkexec python3 {}/main.py
+Exec= gksu python3 {}/main.py
 Icon= {}/icon/dns-logo.png
 Terminal=false
 Type=Application
