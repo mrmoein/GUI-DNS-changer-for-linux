@@ -1,4 +1,4 @@
-# Gui DNS changer for linux (version 2)
+# GUI DNS changer for linux (version 2)
 change dns of your system easily and quickly
 
 tested on `ubuntu` and `mint`
