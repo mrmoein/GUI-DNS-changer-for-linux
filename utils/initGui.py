@@ -199,12 +199,19 @@ class GUI:
             self.send_status_bar_message("something is wrong!")
 
     def remove_button_clicked(self):
+        need_remove_dns_name = self.data.data['dns_list'][self.data.data['settings']['dns']]['name']
+        counter = 0
         self.send_status_bar_message(
             "{} removed".format(self.data.data['dns_list'][self.data.data['settings']['dns']]['name']))
-        self.data.data['dns_list'].pop()
+        for dns in self.data.data['dns_list']:
+            if dns['name'] == need_remove_dns_name:
+                self.data.data['dns_list'].pop(counter)
+                break
+            counter += 1
         self.ui.dns_selection_combo_box.removeItem(self.data.data['settings']['dns'])
+        self.select_dns_combo_box(0)
         self.data.save_changes()
-
+        
     def primary_changed(self):
         if self.valid_ip_address(self.ui.primary_line_edit.text()):
             self.ui.primary_line_edit.setStyleSheet('color: #009933')
