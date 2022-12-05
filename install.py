@@ -20,7 +20,7 @@ Type=Application
 StartupNotify=true'''.format(cur_path, cur_path))
 file.close()
 
-os.system("sudo echo '#! /bin/bash' > /usr/bin/dns_changer")
 os.system("echo -e '#! /bin/bash\nexec pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY python3 {}/main.py' | sudo tee /usr/bin/dns_changer".format(cur_path))
+os.system("sudo chmod +x /usr/bin/dns_changer")
 
 print('------------------\ninstalled successfully\nrun dns_changer command or search for "dns changer" app')
