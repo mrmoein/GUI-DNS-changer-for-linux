@@ -20,12 +20,8 @@ Type=Application
 StartupNotify=true'''.format(cur_path, cur_path))
 file.close()
 
-file = open('/usr/bin/dns_changer'.format(Path.home()), 'w+')
-file.write('''
-#! /bin/bash
-exec pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY python3 {}/main.py
-'''.format(cur_path))
-file.close()
+os.system("sudo echo '#! /bin/bash' > /usr/bin/dns_changer")
+os.system("sudo echo 'exec pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY python3 {}/main.py' >> /usr/bin/dns_changer".format(cur_path))
 os.system("sudo chmod +x {}/.local/bin/dns_changer".format(Path.home()))
 
 print('------------------\ninstalled successfully')
