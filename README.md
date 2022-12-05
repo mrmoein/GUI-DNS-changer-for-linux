@@ -11,6 +11,7 @@ tested on `ubuntu` and `mint`
 ```
 git clone https://github.com/mrmoein/GUI-DNS-changer-for-linux
 cd GUI-DNS-changer-for-linux
+sudo apt install python3-pip
 python3 install.py
 ```
 
