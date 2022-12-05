@@ -20,7 +20,7 @@ Type=Application
 StartupNotify=true'''.format(cur_path, cur_path))
 file.close()
 
-file = open('{}/.local/bin/dns_changer'.format(Path.home()), 'w+')
+file = open('/usr/bin/dns_changer'.format(Path.home()), 'w+')
 file.write('''
 #! /bin/bash
 exec pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY python3 {}/main.py
