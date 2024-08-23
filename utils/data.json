@@ -1,1 +1,36 @@
-{"settings": {"dns": 5, "primary": "", "secondary": ""}, "dns_list": [{"name": "- Default DNS", "primary": "127.0.0.53", "secondary": ""}, {"name": "-- New DNS", "primary": "", "secondary": ""}, {"name": "Google Public", "primary": "8.8.8.8", "secondary": "8.8.4.4"}, {"name": "Shcan", "primary": "178.22.122.100", "secondary": "185.51.200.2"}, {"name": "Cloudflare", "primary": "1.1.1.1", "secondary": "1.0.0.1"}, {"name": "Begzar", "primary": "185.55.226.26", "secondary": "185.55.225.25"}, {"name": "OpenDNS", "primary": "208.67.222.222", "secondary": "208.67.220.220"}, {"name": "Comodo Secure", "primary": "8.26.56.26", "secondary": "8.20.247.20"}, {"name": "Quad9", "primary": "9.9.9.9", "secondary": "149.112.112.112"}, {"name": "Verisign", "primary": "64.6.64.6", "secondary": "64.6.65.6"}]}
+{
+  "settings": { "dns": 5, "primary": "", "secondary": "" },
+  "dns_list": [
+    { "name": "- Default DNS", "primary": "127.0.0.53", "secondary": "" },
+    { "name": "-- New DNS", "primary": "", "secondary": "" },
+    { "name": "Google Public", "primary": "8.8.8.8", "secondary": "8.8.4.4" },
+    {
+      "name": "Shecan",
+      "primary": "178.22.122.100",
+      "secondary": "185.51.200.2"
+    },
+    {
+      "name": "403-Online",
+      "primary": "10.202.10.202",
+      "secondary": "10.202.10.102"
+    },
+    { "name": "Cloudflare", "primary": "1.1.1.1", "secondary": "1.0.0.1" },
+    {
+      "name": "Begzar",
+      "primary": "185.55.226.26",
+      "secondary": "185.55.225.25"
+    },
+    {
+      "name": "OpenDNS",
+      "primary": "208.67.222.222",
+      "secondary": "208.67.220.220"
+    },
+    {
+      "name": "Comodo Secure",
+      "primary": "8.26.56.26",
+      "secondary": "8.20.247.20"
+    },
+    { "name": "Quad9", "primary": "9.9.9.9", "secondary": "149.112.112.112" },
+    { "name": "Verisign", "primary": "64.6.64.6", "secondary": "64.6.65.6" }
+  ]
+}
