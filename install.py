@@ -3,8 +3,8 @@ import sys
 from pathlib import Path
 
 # os.system("sudo apt-get install -y python3-dev libasound2-dev")
-os.system("pip3 install -U pip wheel setuptools")
-os.system("sudo pip3 install -r requirements.txt")
+os.system("pip3 install -U pip wheel setuptools --break-system-packages")
+os.system("sudo pip3 install -r requirements.txt --break-system-packages")
 
 cur_path = sys.path[0]
 
